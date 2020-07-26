@@ -104,12 +104,12 @@ span {
   align-items: center;
   height: 100%;
   padding: 0 3rem;
-  padding-bottom: 10rem;
-  background-color: rgba(255, 255, 255, 0.801);
+  padding-bottom: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.801);  
 }
 
 #showcase .showcase-content {
-  background: #333 url('../img/showcae.jpg') no-repeat center center/cover;
+  background: #333 url('../img/showcae3.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -117,14 +117,14 @@ span {
   font-size: 5rem;
   color: rgb(0, 0, 179);
   margin-bottom: 2rem;
-  text-shadow: #000 3px 5px 10px;
+  text-shadow: #000 3px 3px 5px;
 }
 
 #showcase .showcase-content p {
   font-size: 1.76rem;
   margin-bottom: 5rem;
-  color: #000;
-  text-shadow: 1px 1px 2px #444, 0 0 0 #fff, 0 0 1.5em blue;
+  color: white;
+  text-shadow: 1px 1px 2px #000, 0 0 0 #000, 0 0 0.2em rgba(0, 0, 0, 0.39);
 }
 
 /* DO */
@@ -245,20 +245,14 @@ span {
   background: none;
 }
 
-#contact .contact-us .contact-form input:hover,
-#contact .contact-us .contact-form textarea:hover {
-  background-color: #f4f4f4;
-  border: 1px white solid;
-  transition: 1s;
-}
-
 #contact .contact-us .contact-form textarea,
 #contact .contact-us .contact-form input {
   outline: none;
-  border: 1px solid white;
+
   transition: 0.3s;
   border-radius: 4px;
   background: none;
+  color: #fff;
 }
 
 #contact .contact-us .contact-form textarea {
@@ -275,9 +269,6 @@ span {
   box-shadow: 0 3px 4px #000;
 }
 
-.submit-button:hover {
-
-}
 
 /* footer */
 
