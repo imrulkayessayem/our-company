@@ -49,7 +49,7 @@ span {
   border: 1px solid #000;
   border-radius: 5px;
   text-shadow: #333 2px 4px 2px;
-  box-shadow: 6px 4px 3px #333;
+  box-shadow: 4.1px 4px 3px #000;
 }
 
 .btn:hover {
@@ -68,6 +68,7 @@ span {
   justify-content: space-between;
   padding: 1rem;
   z-index: 1;
+  text-shadow: #333 2px 4px 2px;
 }
 
 
@@ -86,6 +87,7 @@ span {
 #navbar ul li a:hover {
   background-color: rgba(0, 0, 255, 0.247);
   border-radius: 5%;
+  box-shadow: 0 3px 4px #000;
 }
 
 #navbar .logo {
@@ -160,7 +162,7 @@ span {
 
 #do .container h1 {
   color: #fff;
-  text-shadow: blue 5px 10px 10px;
+  text-shadow: darkblue 5px 10px 10px;
 }
 
 #do .do-background {
@@ -175,7 +177,7 @@ span {
 #meeting {
   display: flex;
   height: 70vh;
-  background-color: #444;
+  background-color: rgb(0, 0, 170);
 }
 
 #meeting div {
@@ -207,8 +209,8 @@ span {
 
 #contact {
   height: 100vh;
-  background-color: #ebecf1;
-  color: #333;
+  background-color: rgb(0, 0, 170);;
+  color: white;
   display: flex;
   margin-top: 10px;
   text-shadow: black 2px 1px 10px;
@@ -246,14 +248,14 @@ span {
 #contact .contact-us .contact-form input:hover,
 #contact .contact-us .contact-form textarea:hover {
   background-color: #f4f4f4;
-  border: 1px #000 solid;
+  border: 1px white solid;
   transition: 1s;
 }
 
 #contact .contact-us .contact-form textarea,
 #contact .contact-us .contact-form input {
   outline: none;
-  border: 1px solid #333;
+  border: 1px solid white;
   transition: 0.3s;
   border-radius: 4px;
   background: none;
@@ -270,6 +272,7 @@ span {
 .submit-button{
   padding: 1rem 5rem;
   cursor: pointer;
+  box-shadow: 0 3px 4px #000;
 }
 
 .submit-button:hover {
