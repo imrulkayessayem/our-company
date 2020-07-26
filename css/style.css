@@ -253,6 +253,7 @@ span {
   border-radius: 4px;
   background: none;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 #contact .contact-us .contact-form textarea {
