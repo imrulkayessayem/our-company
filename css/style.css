@@ -26,8 +26,9 @@ span {
   color: greenyellow;
 }
 
-.bg-primary {
-
+.text-primary {
+  color: blue;
+  text-shadow: #333 2px 4px 2px;
 }
 
 .m-heading {
@@ -42,15 +43,17 @@ span {
 }
 
 .btn {
-  background-color: rgba(0, 0, 255, 0.301);
+  background-color: rgb(0, 0, 179);
   padding: 1rem 3rem;
   color: #fff;
   border: 1px solid #000;
   border-radius: 5px;
+  text-shadow: #333 2px 4px 2px;
+  box-shadow: 6px 4px 3px #333;
 }
 
 .btn:hover {
-  background-color: rgb(0, 0, 255);
+  background-color: rgb(0, 0, 151);
   transition: 1s;
 }
 
@@ -85,6 +88,10 @@ span {
   border-radius: 5%;
 }
 
+#navbar .logo {
+  text-shadow: #333 2px 4px 2px;
+}
+
 /* Showcase */
 
 #showcase .showcase-content {
@@ -106,13 +113,16 @@ span {
 
 #showcase .showcase-content h1{
   font-size: 5rem;
-  color: rgba(0, 0, 255, 0.795);
+  color: rgb(0, 0, 179);
   margin-bottom: 2rem;
+  text-shadow: #000 3px 5px 10px;
 }
 
 #showcase .showcase-content p {
   font-size: 1.76rem;
   margin-bottom: 5rem;
+  color: #000;
+  text-shadow: 1px 1px 2px #444, 0 0 0 #fff, 0 0 1.5em blue;
 }
 
 /* DO */
@@ -146,13 +156,19 @@ span {
 
 #do .m-heading {
   margin-bottom: 4rem;
+}
+
+#do .container h1 {
   color: #fff;
+  text-shadow: blue 5px 10px 10px;
 }
 
 #do .do-background {
   background: url('../img/do.jpg') no-repeat center center/cover;
   height: 100vh;
 }
+
+
 
 /* Meeting Room */
 
@@ -172,6 +188,11 @@ span {
   justify-content: center;
   padding: 2rem;
   color: #fff;
+  text-shadow: black 5px 10px 10px;
+}
+
+#meeting .m-heading {
+  text-shadow: black 5px 10px 10px;
 }
 
 #meeting .meeting-content .team-list {
@@ -186,10 +207,11 @@ span {
 
 #contact {
   height: 100vh;
-  background-color: orange;
-  color: #fff;
+  background-color: #ebecf1;
+  color: #333;
   display: flex;
   margin-top: 10px;
+  text-shadow: black 2px 1px 10px;
 }
 
 
@@ -213,18 +235,18 @@ span {
 #contact .contact-us .contact-form label {
   display: block;
   margin-bottom: .2rem;
-  color: #fff;
 }
 
 #contact .contact-us .contact-form input {
   padding: .5rem;
   width: 90%;
+  background: none;
 }
 
 #contact .contact-us .contact-form input:hover,
 #contact .contact-us .contact-form textarea:hover {
-  background-color: rgba(255, 0, 0, 0.185);
-  border: 1px #fff solid;
+  background-color: #f4f4f4;
+  border: 1px #000 solid;
   transition: 1s;
 }
 
@@ -245,22 +267,13 @@ span {
   margin: 1rem 0;
 }
 
-.submit-button {
-  background-color: rgb(224, 148, 7);
-  padding: 0.7rem 4rem;
-  color: #333;
-  border: #fff;
-  border-radius: 50px;
+.submit-button{
+  padding: 1rem 5rem;
   cursor: pointer;
-  outline: none;
-  border: 1px solid orange;
 }
 
 .submit-button:hover {
-  background-color: orange;
-  color: #fff;
-  transition: 1s;
-  border: 1px solid #fff;
+
 }
 
 /* footer */
